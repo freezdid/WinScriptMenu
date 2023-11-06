@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Scan Menu]
+"MUIVerb"="Scan menu"
+"icon"="%SystemRoot%\\System32\\imageres.dll,-1025"
+"Position"="Middle"
+"ExtendedSubCommandsKey"="*\\shell\\Scan Menu"
+
+[HKEY_CLASSES_ROOT\*\shell\Scan Menu\Shell]
+
+[HKEY_CLASSES_ROOT\*\shell\Scan Menu\Shell\cmd1]
+"MUIVerb"="Analyse VT"
+"icon"="%SystemRoot%\\System32\\imageres.dll,-1025"
+
+[HKEY_CLASSES_ROOT\*\shell\Scan Menu\Shell\cmd1\command]
+@="contextmenu_scantovt.cmd -scantofile \"%1\""
+
+[HKEY_CLASSES_ROOT\*\shell\Scan Menu\Shell\cmd2]
+"MUIVerb"="Check hash"
+"icon"="%SystemRoot%\\System32\\imageres.dll,-1028"
+
+[HKEY_CLASSES_ROOT\*\shell\Scan Menu\Shell\cmd2\Command]
+@="contextmenu_scantovt.cmd -check \"%1\""
+
