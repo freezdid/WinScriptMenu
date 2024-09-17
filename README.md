@@ -42,7 +42,18 @@ Le menu contextuel vous offre la possibilité de basculer entre les profils du p
 
 Assurez-vous de suivre ces étapes avec soin pour personnaliser votre menu contextuel avec la fonction de changement de profil du plan d'alimentation.
 
-### 3. Analyse par VirusTotal et Calcul du Hash de Fichier
+### 3. Vérification des ouvertures de session windows utilisateur
+
+En ajoutant cette fonctionnalité au menu contextuel, vous pourrez rapidement vérifier les ouvertures de session Windows des utilisateurs, y compris celles situées dans l'Observateur d'événements. Cela permet d'obtenir une vue précise des ouvertures et fermetures depuis un fichier journal nommé `outputStartSessionLog.txt`, qui récapitule ligne par ligne les champs suivants : `date/time`, `utilisateur`, `ouverture/fermeture` de la session.
+
+Ajoutez le fichier `startsessionlog.cmd` dans le répertoire System32 en effectuant simplement une copie-coller du fichier dans le répertoire `C:\Windows\System32`.
+2. Double-cliquez sur le fichier `contextmenu_startsessionlog.reg` pour l'exécuter.   
+
+Confirmez toute boîte de dialogue d'avertissement qui peut apparaître pour appliquer les modifications au registre.
+
+Une fois les modifications appliquées, vous pourrez accéder à la fonction de vérification des ouvertures ou fermetures de session Windows utilisateur directement à partir du menu contextuel en faisant un clic droit sur le bureau.   
+
+### 4. Analyse par VirusTotal et Calcul du Hash de Fichier
 
 ## Prérequis
 Avant d'utiliser les fonctionnalités du menu contextuel, assurez-vous de disposer des éléments suivants :
@@ -60,17 +71,6 @@ Lorsque vous effectuez un clic droit sur un fichier, vous avez désormais la pos
 3. Confirmez toute boîte de dialogue d'avertissement qui peut apparaître pour appliquer les modifications au registre.
 
 4. Une fois les modifications appliquées, vous pourrez accéder à la fonction de d'analyse de fichier par Virustotal directement à partir du menu contextuel en faisant un clic droit sur un fichier.
-
-### 4. Vérification des ouvertures de session windows utilisateur
-
-En ajoutant cette fonctionnalité au menu contextuel, vous pourrez rapidement vérifier les ouvertures de session Windows des utilisateurs, y compris celles situées dans l'Observateur d'événements. Cela permet d'obtenir une vue précise des ouvertures et fermetures depuis un fichier journal nommé `outputStartSessionLog.txt`, qui récapitule ligne par ligne les champs suivants : `date/time`, `utilisateur`, `ouverture/fermeture` de la session.
-
-Ajoutez le fichier `startsessionlog.cmd` dans le répertoire System32 en effectuant simplement une copie-coller du fichier dans le répertoire `C:\Windows\System32`.
-2. Double-cliquez sur le fichier `contextmenu_startsessionlog.reg` pour l'exécuter.   
-
-Confirmez toute boîte de dialogue d'avertissement qui peut apparaître pour appliquer les modifications au registre.
-
-Une fois les modifications appliquées, vous pourrez accéder à la fonction de vérification des ouvertures ou fermetures de session Windows utilisateur directement à partir du menu contextuel en faisant un clic droit sur le bureau.   
 
 ## Comment Utiliser
 
