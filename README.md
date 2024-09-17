@@ -7,6 +7,7 @@ Met l'accent sur les scripts Windows et les menus contextuels.
 <a href="https://imgur.com/pFerQlo"><img src="https://i.imgur.com/pFerQlo.gif" title="source: imgur.com" width="800" height="600" /></a>
 <a href="https://imgur.com/9qozfmp"><img src="https://i.imgur.com/9qozfmp.gif" title="source: imgur.com" width="800" height="600" /></a>
 <a href="https://imgur.com/jsxufHh"><img src="https://i.imgur.com/jsxufHh.jpeg" title="source: imgur.com" width="450" height="450" /></a>
+<a href="https://imgur.com/m8NIYEC"><img src="https://i.imgur.com/m8NIYEC.jpeg" title="source: imgur.com" width="800" height="450" /></a>
 </div>
 
 
